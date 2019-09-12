@@ -1,0 +1,42 @@
+beginnen
+
+var: # = (2+4);
+var: 1y,z,g;
+
+g = a*-b;
+x = (2+4+8)/2*4*(2-5+5);
+y = ((4+5)/8*(4+3));
+z = x++;
+
+von{
+
+  schreiben("hello world var");
+
+}durch(x>7);
+
+
+zum(x;x>7;X-1;){
+
+  schreiben("hello again");
+
+};
+
+wenn(x<5|und|y<3){
+
+  schreiben("look at me here one more time");
+
+}wennnicht(x<2|oder|y<2){
+
+  schreiben("oh no");
+
+}wennnicht(x<1){
+
+  schreiben("oh god");
+
+}sonst{
+
+  schreiben("oh no twice);
+
+};
+
+ende

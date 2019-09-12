@@ -1,0 +1,213 @@
+Line	Column	Value	Token
+1	0	beginnen	tk_begin
+
+
+3	0	var	tk_var
+3	3	:	tk_colon
+3	5	Erro: ID inválido	NULL
+3	7	=	tk_take
+3	9	(	tk_open_bracket
+3	10	2	tk_intid
+3	11	+	tk_sum
+3	12	4	tk_intid
+3	13	)	tk_close_bracket
+3	14	;	tk_semicolon
+
+4	0	var	tk_var
+4	3	:	tk_colon
+4	5	Erro: ID não identificado.	NULL
+4	7	,	tk_comma
+4	8	z	tk_id
+4	9	,	tk_comma
+4	10	g	tk_id
+4	11	;	tk_semicolon
+
+
+6	0	g	tk_id
+6	2	=	tk_take
+6	4	a	tk_id
+6	5	*	tk_multiplication
+6	6	-	tk_subtraction
+6	7	b	tk_id
+6	8	;	tk_semicolon
+
+7	0	x	tk_id
+7	2	=	tk_take
+7	4	(	tk_open_bracket
+7	5	2	tk_intid
+7	6	+	tk_sum
+7	7	4	tk_intid
+7	8	+	tk_sum
+7	9	8	tk_intid
+7	10	)	tk_close_bracket
+7	11	/	tk_division
+7	12	2	tk_intid
+7	13	*	tk_multiplication
+7	14	4	tk_intid
+7	15	*	tk_multiplication
+7	16	(	tk_open_bracket
+7	17	2	tk_intid
+7	18	-	tk_subtraction
+7	19	5	tk_intid
+7	20	+	tk_sum
+7	21	5	tk_intid
+7	22	)	tk_close_bracket
+7	23	;	tk_semicolon
+
+8	0	y	tk_id
+8	2	=	tk_take
+8	4	(	tk_open_bracket
+8	5	(	tk_open_bracket
+8	6	4	tk_intid
+8	7	+	tk_sum
+8	8	5	tk_intid
+8	9	)	tk_close_bracket
+8	10	/	tk_division
+8	11	8	tk_intid
+8	12	*	tk_multiplication
+8	13	(	tk_open_bracket
+8	14	4	tk_intid
+8	15	+	tk_sum
+8	16	3	tk_intid
+8	17	)	tk_close_bracket
+8	18	)	tk_close_bracket
+8	19	;	tk_semicolon
+
+9	0	z	tk_id
+9	2	=	tk_take
+9	4	x	tk_id
+9	5	+	tk_sum
+9	6	+	tk_sum
+9	7	;	tk_semicolon
+
+
+11	0	von	tk_do
+11	3	{	tk_open_keys
+
+
+13	0	schreiben	tk_print
+13	11	(	tk_open_bracket
+13	12	''	tk_quotation_marks
+13	13	hello world var	tk_Stringid
+13	41	''	tk_quotation_marks
+
+
+15	0	}	tk_close_keys
+15	1	durch	tk_while
+15	6	(	tk_open_bracket
+15	7	x	tk_id
+15	8	>	tk_bigger
+15	9	7	tk_intid
+15	10	)	tk_close_bracket
+15	11	;	tk_semicolon
+
+
+
+18	0	zum	tk_for
+18	3	(	tk_open_bracket
+18	4	x	tk_id
+18	5	;	tk_semicolon
+18	6	x	tk_id
+18	7	>	tk_bigger
+18	8	7	tk_intid
+18	9	;	tk_semicolon
+18	10	X	tk_id
+18	11	-	tk_subtraction
+18	12	1	tk_intid
+18	13	;	tk_semicolon
+18	14	)	tk_close_bracket
+18	15	{	tk_open_keys
+
+
+20	0	schreiben	tk_print
+20	11	(	tk_open_bracket
+20	12	''	tk_quotation_marks
+20	13	hello again	tk_Stringid
+20	37	''	tk_quotation_marks
+
+
+22	0	}	tk_close_keys
+22	1	;	tk_semicolon
+
+
+24	0	wenn	tk_if
+24	4	(	tk_open_bracket
+24	5	x	tk_id
+24	6	<	tk_smaller
+24	7	5	tk_intid
+24	8	|	tk_separator
+24	9	und	tk_and
+24	12	|	tk_separator
+24	13	y	tk_id
+24	14	<	tk_smaller
+24	15	3	tk_intid
+24	16	)	tk_close_bracket
+24	17	{	tk_open_keys
+
+
+26	0	schreiben	tk_print
+26	11	(	tk_open_bracket
+26	12	''	tk_quotation_marks
+26	13	look at me here one more time	tk_Stringid
+26	55	''	tk_quotation_marks
+
+
+28	0	}	tk_close_keys
+28	1	wenn	tk_if
+28	5	nicht	tk_id
+28	10	(	tk_open_bracket
+28	11	x	tk_id
+28	12	<	tk_smaller
+28	13	2	tk_intid
+28	14	|	tk_separator
+28	15	oder	tk_or
+28	19	|	tk_separator
+28	20	y	tk_id
+28	21	<	tk_smaller
+28	22	2	tk_intid
+28	23	)	tk_close_bracket
+28	24	{	tk_open_keys
+
+
+30	0	schreiben	tk_print
+30	11	(	tk_open_bracket
+30	12	''	tk_quotation_marks
+30	13	oh no	tk_Stringid
+30	31	''	tk_quotation_marks
+
+
+32	0	}	tk_close_keys
+32	1	wenn	tk_if
+32	5	nicht	tk_id
+32	10	(	tk_open_bracket
+32	11	x	tk_id
+32	12	<	tk_smaller
+32	13	1	tk_intid
+32	14	)	tk_close_bracket
+32	15	{	tk_open_keys
+
+
+34	0	schreiben	tk_print
+34	11	(	tk_open_bracket
+34	12	''	tk_quotation_marks
+34	13	oh god	tk_Stringid
+34	32	''	tk_quotation_marks
+
+
+36	0	}	tk_close_keys
+36	1	sonst	tk_else
+36	6	{	tk_open_keys
+
+
+38	0	schreiben	tk_print
+38	11	(	tk_open_bracket
+38	12	''	tk_quotation_marks
+38	13	Erro: " não encontrado	NULL
+
+
+40	0	}	tk_close_keys
+40	1	;	tk_semicolon
+
+
+42	0	ende	tk_end
+
